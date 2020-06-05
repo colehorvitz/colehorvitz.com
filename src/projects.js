@@ -3,7 +3,7 @@ export const PROJECTS = [
         name: "Brown University Bear Dens",
         desc: "A web application that helps Brown students discover on-campus housing.",
         tags: ["react", "css", "sprql"],
-        img: "brown1.png",
+        img: "public/brown1.png",
         gradient_start:"rgba(255, 18, 18, .4)",
         gradient_end:"rgba(255,199,0,.4)",
         url:"https://www.brownbeardens.com"
