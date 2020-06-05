@@ -18,7 +18,7 @@ class Console extends Component {
                         whois cole
                     </Typist>
                 </div>
-                <div style={{display: this.state.displayBio ? 'block' : 'none'}} className="bio">
+                <div style={{color: this.state.displayBio ? 'white' : '#212121'}} className="bio">
                     <p>Name: Cole Horvitz</p>
                     <p>Education: Brown University</p>
                     <p>Location: Los Angeles</p>
