@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/colehorvitz.com/static/css/main.516d5964.chunk.css",
+    "main.js": "/colehorvitz.com/static/js/main.2c99c729.chunk.js",
+    "main.js.map": "/colehorvitz.com/static/js/main.2c99c729.chunk.js.map",
+    "runtime-main.js": "/colehorvitz.com/static/js/runtime-main.2a96305a.js",
+    "runtime-main.js.map": "/colehorvitz.com/static/js/runtime-main.2a96305a.js.map",
+    "static/js/2.0319111f.chunk.js": "/colehorvitz.com/static/js/2.0319111f.chunk.js",
+    "static/js/2.0319111f.chunk.js.map": "/colehorvitz.com/static/js/2.0319111f.chunk.js.map",
+    "index.html": "/colehorvitz.com/index.html",
+    "precache-manifest.6f9da540ce52dc97b3edbd86f496ff11.js": "/colehorvitz.com/precache-manifest.6f9da540ce52dc97b3edbd86f496ff11.js",
+    "service-worker.js": "/colehorvitz.com/service-worker.js",
+    "static/css/main.516d5964.chunk.css.map": "/colehorvitz.com/static/css/main.516d5964.chunk.css.map",
+    "static/js/2.0319111f.chunk.js.LICENSE.txt": "/colehorvitz.com/static/js/2.0319111f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a96305a.js",
+    "static/js/2.0319111f.chunk.js",
+    "static/css/main.516d5964.chunk.css",
+    "static/js/main.2c99c729.chunk.js"
+  ]
+}
