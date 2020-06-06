@@ -44,6 +44,11 @@ class App extends Component {
       return <ProjectCard project={proj}/>
     });
   }
+
+  componentDidMount() {
+    document.title = 'Cole Horvitz';
+  }
+
 }
 
 export default App;

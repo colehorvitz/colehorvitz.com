@@ -67,7 +67,7 @@ h2{font-family:'Source Code Pro', monospace; font-weight: 400;font-size:1.5em;ma
 
 .projects-wrap{
   width:100vw;
-  padding:2rem 30vw;
+  padding:0 30vw;
   margin-bottom:8rem;
   box-sizing: border-box;
 }
@@ -204,7 +204,7 @@ html {
   }
   .projects-wrap{
     padding:0 5vw;
-    margin-top:4rem;
+    margin-top:6rem;
   }
   .project-card{
     height:auto;
@@ -217,6 +217,7 @@ html {
   }
   .project-card{
     flex-direction: column;
+    border-bottom:1px solid #EEEEEE;
   }
   .projects-grid{
     grid-gap:2rem;
