@@ -8,19 +8,19 @@ export const PROJECTS = [
     },
 
     {
+        name: "SleepCoacher",
+        desc: "Developed and maintained an Android app that tracks and improves users' sleep.",
+        tags: ["android", "java", "python"],
+        img: "sleep.jpg",
+        url:"http://sleep.cs.brown.edu/",
+    },
+
+    {
         name: "deepread.app",
         desc: "A reader application that offers a customizable reading environment.",
         tags: ["react", "css", "django"],
         img: "doc.jpg",
         url: "https://www.deepread.app",
-    },
-
-    {
-        name: "Sleepcoacher",
-        desc: "Developed and maintained an Android app that tracks and improves users' sleep.",
-        tags: ["android", "java", "python"],
-        img: "https://images.pexels.com/photos/129062/pexels-photo-129062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-        url:"http://sleep.cs.brown.edu/",
     },
 
     {
