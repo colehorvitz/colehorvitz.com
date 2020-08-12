@@ -31,7 +31,7 @@ class App extends Component {
         <div className="footer">
           <div className="icons">
             <a href="https://www.linkedin.com/in/cole-horvitz-37a58a19a" target="_blank" rel="noopener noreferrer"><AiFillLinkedin className="icon" /></a>
-            <a href="https://github.com/colehorvitz" target="_blank" rel="noopener noreferrer"><MdEmail className="icon"/></a>
+            <a href="mailto:cole_horvitz@brown.edu" target="_blank" rel="noopener noreferrer"><MdEmail className="icon"/></a>
             <a href="https://github.com/colehorvitz" target="_blank" rel="noopener noreferrer"><AiFillGithub className="icon"/></a>
           </div>
         </div>
