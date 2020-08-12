@@ -42,11 +42,13 @@ h2{font-family:'Source Code Pro', monospace; font-weight: 400;font-size:1.5em;ma
 .nav .icon {
   color:#212121;
   font-size:24px;
+  width:24px; 
+  height:24px;
   margin-left:8px;
 }
 
 .nav .icon:hover{
-  opacity:.9;
+  opacity:.85;
   cursor: pointer;
 }
 
@@ -172,7 +174,9 @@ html {
 .footer .icon {
   color:white;
   font-size:28px;
-  margin-right:8px;
+  width:28px; 
+  height:28px;
+  margin-right:12px;
   padding:.5rem 0;
   opacity:.8;
   transition: color 1s ease-in-out;

@@ -4,6 +4,7 @@ import Console from './Console'
 import ProjectCard from './ProjectCard'
 import { PROJECTS } from './projects'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
+import { MdEmail } from 'react-icons/md'
 
 class App extends Component { 
   render() {
@@ -28,10 +29,9 @@ class App extends Component {
           </div>
         </div>
         <div className="footer">
-          <h4>Cole Horvitz</h4>
-          <p>cole_horvitz@brown.edu</p>
           <div className="icons">
             <a href="https://www.linkedin.com/in/cole-horvitz-37a58a19a" target="_blank" rel="noopener noreferrer"><AiFillLinkedin className="icon" /></a>
+            <a href="https://github.com/colehorvitz" target="_blank" rel="noopener noreferrer"><MdEmail className="icon"/></a>
             <a href="https://github.com/colehorvitz" target="_blank" rel="noopener noreferrer"><AiFillGithub className="icon"/></a>
           </div>
         </div>
