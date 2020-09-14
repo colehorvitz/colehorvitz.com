@@ -22,7 +22,7 @@ class Console extends Component {
                     <p>Name: Cole Horvitz</p>
                     <p>Education: Brown University</p>
                     <p>Location: Los Angeles</p>
-                    <p>Skills: web design, full-stack development</p>
+                    <p>Skills: app, software, full-stack development</p>
                     <p>Contact: cole_horvitz@brown.edu</p>
                 </div>
             </div>
