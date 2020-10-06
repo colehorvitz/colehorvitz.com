@@ -1,7 +1,7 @@
 export const PROJECTS = [
     {
         name: "Brown University Bear Dens",
-        desc: "A web application that helps Brown students discover on-campus housing.",
+        desc: "A web application that has helped over 4000 Brown students discover on-campus housing.",
         tags: ["react", "css", "sparql"],
         img: "brown1.png",
         url:"https://www.brownbeardens.com"
