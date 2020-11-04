@@ -1,10 +1,10 @@
 h1, p, a, .console {font-family: 'Source Code Pro', monospace;}
 p {font-weight:400;}
 h1{font-weight:400;}
-h2{font-family:'Source Code Pro', monospace; font-weight: 400;font-size:1.5em;margin-bottom:0rem;}
+h2{font-family:'Source Code Pro', monospace; font-weight: 400;font-size:max(1.25vw, 1.5em);margin-bottom:0rem;}
 
 .main-wrap{
-  width:100vw;
+  width:100%;
   height:55vh;
   margin-top:3rem;
   display: flex;
@@ -13,14 +13,14 @@ h2{font-family:'Source Code Pro', monospace; font-weight: 400;font-size:1.5em;ma
   flex-direction: column;
   box-sizing: border-box;
 }
-.intro-wrap{width:40%;}
+.intro-wrap{width:min(576px, 40%)}
 .intro-header{
   display:flex;
   align-items:center;
   justify-content: space-between;
 }
 .console{
-  width:100%;
+  max-width:100%;
   background-color: #212121;
   color:white;
   padding:2.5rem;
@@ -41,7 +41,6 @@ h2{font-family:'Source Code Pro', monospace; font-weight: 400;font-size:1.5em;ma
 }
 .nav .icon {
   color:#212121;
-  font-size:24px;
   width:24px; 
   height:24px;
   margin-left:8px;
@@ -68,10 +67,16 @@ h2{font-family:'Source Code Pro', monospace; font-weight: 400;font-size:1.5em;ma
 }
 
 .projects-wrap{
-  width:100vw;
-  padding:0 30vw;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin-bottom:8rem;
   box-sizing: border-box;
+}
+.projects-subwrap{
+  width:min(576px, 40%);
 }
 .projects-grid{
   display:grid;
@@ -105,7 +110,7 @@ h2{font-family:'Source Code Pro', monospace; font-weight: 400;font-size:1.5em;ma
 
 .project-card .info h3{
   font-family: 'Source Code Pro', monospace;
-  font-size:1em;
+  font-size:max(.85vw, 1em);
   font-weight:500;
   margin:0;
 }
@@ -140,7 +145,7 @@ h2{font-family:'Source Code Pro', monospace; font-weight: 400;font-size:1.5em;ma
 }
 
 .footer{
-  width:100vw;
+  width:100%;
   background-color:#212121;
   display:flex;
   padding: 1rem 30vw;
