@@ -9,7 +9,7 @@ export const PROJECTS = [
 
     {
         name: "SleepCoacher",
-        desc: "Developed and maintained an Android app that tracks and improves users' sleep.",
+        desc: "An Android app that tracks and improves users' sleep through experiments.",
         tags: ["android", "java", "python"],
         img: "sleep.jpg",
         url:"http://sleep.cs.brown.edu/",
