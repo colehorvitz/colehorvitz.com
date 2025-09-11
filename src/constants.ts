@@ -27,7 +27,7 @@ export const PROJECTS: Project[] = [
   },
   {
     name: "Brown University Bear Dens",
-    desc: "A web application that has helped over 4000 Brown students discover on-campus housing.",
+    desc: "A web application that has helped over 7,000 Brown students discover on-campus housing.",
     tags: ["react", "css", "sparql"],
     img: "icons/brown-icon.png",
     url: "https://www.brownbeardens.com",
