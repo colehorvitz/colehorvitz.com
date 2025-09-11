@@ -8,7 +8,7 @@ export default function Experience(props: { project: Project }) {
         <img src={props.project.img} alt={props.project.name} />
       </div>
       <div className={styles.info}>
-        {props.project.url != null ? (
+        {props.project.url ? (
           <a href={props.project.url} target="_blank" rel="noopener noreferrer">
             <h3>{props.project.name}</h3>
           </a>
