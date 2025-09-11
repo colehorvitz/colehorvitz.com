@@ -33,4 +33,12 @@ export const PROJECTS: Project[] = [
     url: "https://www.brownbeardens.com",
     thubmnailBaseColor: "#fff4c2",
   },
+  {
+    name: "aloud",
+    desc: "An audio-based social media app.",
+    tags: ["flutter", "dart", "django", "python"],
+    img: "icons/aloud-icon.png",
+    url: "https://www.aloudaudio.app",
+    thubmnailBaseColor: "#f5f5f5",
+  },
 ];

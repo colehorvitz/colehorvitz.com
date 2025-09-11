@@ -4,12 +4,7 @@ import type { Project } from "../../types";
 export default function Experience(props: { project: Project }) {
   return (
     <div className={styles.projectCard}>
-      <div
-        className={styles.imgWrap}
-        style={{
-          background: `linear-gradient(to top, ${props.project.thubmnailBaseColor}, color-mix(in srgb, ${props.project.thubmnailBaseColor}, white 70%))`,
-        }}
-      >
+      <div className={styles.imgWrap}>
         <img src={props.project.img} alt={props.project.name} />
       </div>
       <div className={styles.info}>
